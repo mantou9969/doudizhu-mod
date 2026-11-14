@@ -1,0 +1,30 @@
+# ==================== 全局设置 ====================
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+# issueTrackerURL="https://change.me" # 可选
+
+# ==================== 模组定义 (你缺的就是这行！) ====================
+[[mods]] # <--- ★★★ 必须有这个 [[mods]]，否则游戏会崩！ ★★★
+modId="doudizhu"
+version="1.0.0"
+displayName="Minecraft 斗地主"
+authors="馒头"
+description='''
+    斗地主模组
+    '''
+
+# ==================== 依赖项 (Dependencies) ====================
+[[dependencies.doudizhu]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.doudizhu]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
